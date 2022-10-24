@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins";
+	font-style: normal;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 600;
+	margin: 0;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+}
+
+p {
+	color: #c0c0c0;
+	font-size: 14px;
+	margin: 0;
+}
+
+.sticker {
+	position: absolute;
+	/* background-color: red; */
+	z-index: 1;
+}
+
+#container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#pearBook {
+	float: left;
+	width: 66%;
+	height: 80%;
+	background: #d5d4d8;
+	border-radius: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+#pearLogoContainer {
+	width: 152px;
+	height: 234px;
+	position: relative;
+}
+
+#topContainer {
+	display: flex;
+	width: 66%;
+	height: 10%;
+	margin-bottom: 24px;
+	margin-top: 24px;
+}
+
+#scoreboard {
+	border: 1px solid #c0c0c0;
+	width: 80%;
+	height: 100%;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	padding: 24px;
+}
+
+.scoreboardSection {
+	width: 33.333%;
+	/* background-color: red; */
+	display: flex;
+	align-items: center;
+}
+
+.resultsSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	margin-left: 24px;
+	line-height: 24px;
+}
+
+#scoreboardLogoContainer {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	margin-right: 8px;
+}
+
+.dividerLine {
+	height: 100%;
+	border: 1px solid #d5d4d9;
+	border-right: 0;
+}
+
+#run {
+	width: 20%;
+	margin-left: 24px;
+	height: 100%;
+	background: #00a88b;
+	border-radius: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#run:hover {
+	cursor: pointer;
+	background: #007561;
+	box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+		0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12);
+}
+
+#copyright {
+	font-weight: 400;
+	font-size: 10px;
+	color: #c0c0c0;
+	position: absolute;
+	left: 17%;
+	bottom: 16px;
+}
