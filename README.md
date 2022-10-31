@@ -236,4 +236,4 @@ It should be possible to set up this repo and come up with a minimally viable so
 Submit your solution at: <a href='https://forms.gle/243yKmHzBsHRJwUY9' target='_blank'>https://forms.gle/243yKmHzBsHRJwUY9</a>. You are asked to provide your `name`, `email address`, your `app.py` and `ideas.md` file (along with any other modified files), and a `screenshot` of the visualization of your solution (not the code). 
 
 
-**This take-home assignment is due at 11:59 P.M. Eastern time on Sunday, October 30, 2022**. 
+**This take-home assignment is due at 11:59 P.M. Eastern time on Sunday, November 6, 2022**. 
